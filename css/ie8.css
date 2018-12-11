@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+.m_lip_top>h2{
+    position:absolute;
+    left:20px;
+    top:-30px;
+}
+
+#m_video>div:nth-of-type(1){
+    float:left;
+}
+#m_video>div:nth-of-type(1)>img{
+    display:block;
+    width:530px;
+    height:450px;
+    border:none;
+    box-shadow:1px 1px 3px #ccc;
+}
+#m_video>div:nth-of-type(2){
+    position:relative;
+    float:right;
+    width:730px;
+}
+#m_video>div:nth-of-type(2)>p{
+    margin-top:212px;
+    margin-bottom:35px;
+    margin-right:528px;
+    margin-left:40px;
+    font-family:"Roboto", sans-serif;
+    font-size:20px;
+}
+#m_video>div:nth-of-type(2)>p>a{
+    display:block;
+    padding-left:7px;
+    font-weight:bold;
+}
+#m_video>div:nth-of-type(2)>p>a:before{
+    position:absolute;
+    top:208px;
+    left:38px;
+    content:'';
+    display:block;
+    width:2px;
+    height:34px;
+    background:#1e1e1e;
+    opacity:0;
+    transition:1s;
+}
+#m_video>div:nth-of-type(2)>p>a:after{
+    position:absolute;
+    top:240px;
+    left:40px;
+    content:'';
+    display:block;
+    width:160px;
+    height:2px;
+    background:#1e1e1e;
+    opacity:0;
+    transition:1s;
+}
+#m_video>div:nth-of-type(2)>ul:before{
+    position:absolute;
+    bottom:204px;
+    left:185.5px;
+    content:'';
+    display:block;
+    width:2px;
+    height:40px;
+    background:#1e1e1e;
+    transform:translateX(-9999px);
+    transform:rotateZ(-220deg);
+    opacity:0;
+    transition:1s;
+}
+#m_video>div:nth-of-type(2)>p:hover>a:before, #m_video>div:nth-of-type(2)>p:hover>a:after, #m_video>div:nth-of-type(2)>p:hover~ul:before{
+    opacity:1;
+    font-weight:none;
+}
+
+#m_video>div:nth-of-type(2)>ul>li{
+    float:left;
+    margin-left:35px;
+}
+#m_video>div:nth-of-type(2)>ul>li>p{
+    font-weight:bold;
+}
+#m_video>div:nth-of-type(2)>ul>li:nth-child(1)>img, #m_video>div:nth-of-type(2)>ul>li:nth-child(2)>img, #m_video>div:nth-of-type(2)>ul>li:nth-child(3)>img{
+    display:block;
+    width:200px;
+    height:150px;
+    border:none;
+    box-shadow:1px 1px 3px #ccc;
+}
+#m_video>div:nth-of-type(2)>ul>li:nth-child(1)>a>p, #m_video>div:nth-of-type(2)>ul>li:nth-child(2)>a>p, #m_video>div:nth-of-type(2)>ul>li:nth-child(3)>a>p{
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
